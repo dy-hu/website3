@@ -1,7 +1,5 @@
 # website3
 
-Dan Hu's original single-page portfolio, built with Vite using his bio, résumé, headshot, and project assets.
-
 ## Develop locally
 
 ```bash
