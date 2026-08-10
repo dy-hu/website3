@@ -23,6 +23,7 @@ h1 { margin:0 0 22px; font-size:clamp(3.3rem,6vw,5.6rem); letter-spacing:-.05em;
 .project-image-cryo { object-fit:cover; background:#fff; }
 .project-image-workwell { object-fit:cover; background:#fff; }
 .project-image-hoagie { padding:18px; object-fit:contain; background:#f0f1f5; }
+.project-placeholder-art { height:185px; display:grid; place-items:center; background:var(--accent-soft); color:var(--accent-dark); font:600 .75rem/1 var(--mono); letter-spacing:.14em; text-transform:uppercase; }
 .project-copy { padding:20px; }
 .project h3 { margin:0 0 10px; font-size:1.35rem; }
 .project p { margin:0; color:var(--muted); font:400 .88rem/1.65 var(--mono); }
@@ -36,4 +37,4 @@ h1 { margin:0 0 22px; font-size:clamp(3.3rem,6vw,5.6rem); letter-spacing:-.05em;
 footer { display:flex; flex-direction:column; align-items:flex-start; gap:5px; padding:var(--section-space) 0 32px; font-size:.8rem; }
 footer p { margin:0; color:#9b978e; }
 @media (max-width:850px) { .intro { grid-template-columns:minmax(0,1fr) 250px; gap:38px; }.portrait { width:250px; height:250px; }.projects { grid-template-columns:repeat(2,1fr); } }
-@media (max-width:620px) { :root { --section-space:48px; } header,main,footer { width:min(100% - 28px,1120px); }.banner { height:190px; }.banner img { object-position:39% 80%; }.intro { grid-template-columns:1fr; }.portrait { grid-row:1; width:230px; height:230px; margin:auto; }.projects { grid-template-columns:1fr; }.project > .project-image { height:180px; }.project-image-hoagie { padding:18px; }.project-copy { padding:20px; }.project p { font-size:.84rem; }.email-line { align-items:flex-start; flex-direction:column; }.contact code { display:block; max-width:100%; overflow-wrap:anywhere; font-size:.78rem; } }
+@media (max-width:620px) { :root { --section-space:48px; } header,main,footer { width:min(100% - 28px,1120px); }.banner { height:190px; }.banner img { object-position:39% 80%; }.intro { grid-template-columns:1fr; }.portrait { grid-row:1; width:230px; height:230px; margin:auto; }.projects { grid-template-columns:1fr; }.project > .project-image,.project-placeholder-art { height:180px; }.project-image-hoagie { padding:18px; }.project-copy { padding:20px; }.project p { font-size:.84rem; }.email-line { align-items:flex-start; flex-direction:column; }.contact code { display:block; max-width:100%; overflow-wrap:anywhere; font-size:.78rem; } }
