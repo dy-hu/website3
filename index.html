@@ -3,137 +3,107 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Dan Hu is a software engineer in New York building intelligent, useful systems." />
-    <meta name="theme-color" content="#f3efe4" />
-    <title>Dan Hu — Software Engineer</title>
+    <meta name="description" content="Dan Hu's personal portfolio." />
+    <meta name="theme-color" content="#f4f0e8" />
+    <title>Dan Hu</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
   </head>
   <body>
-    <a class="skip-link" href="#main">Skip to content</a>
-    <header class="site-header">
-      <a class="brand" href="#top" aria-label="Dan Hu, home">
-        <span class="brand-mark" aria-hidden="true">DH</span>
-        <span>Dan Hu</span>
-      </a>
+    <header>
+      <a class="brand" href="#top"><span class="mark">DH</span><span>Dan Hu</span></a>
       <nav aria-label="Primary navigation">
-        <a href="#about">About</a>
-        <a href="#work">Work</a>
-        <a href="#contact">Contact</a>
+        <a href="#top">home</a>
+        <a href="#projects">projects</a>
       </nav>
     </header>
 
-    <main id="main">
-      <section class="hero" id="top" aria-labelledby="hero-title">
-        <div class="hero-art" aria-hidden="true">
-          <svg viewBox="0 0 1200 390" role="img">
-            <path class="route route-one" d="M-40 280 C 105 50, 245 355, 405 150 S 730 52, 845 220 S 1085 360, 1245 74" />
-            <path class="route route-two" d="M-30 85 C 125 245, 285 15, 465 235 S 790 330, 920 132 S 1090 40, 1245 235" />
-            <g class="nodes">
-              <circle cx="146" cy="164" r="12" /><circle cx="405" cy="150" r="12" />
-              <circle cx="685" cy="119" r="12" /><circle cx="920" cy="132" r="12" />
-              <circle cx="1102" cy="260" r="12" />
-            </g>
-            <text x="34" y="55">SYSTEMS</text><text x="955" y="350">NEW YORK, NY</text>
-          </svg>
-          <span class="art-caption">Routes, systems, and the interesting paths between them.</span>
-        </div>
+    <main id="top">
+      <div class="banner" role="img" aria-label="Banner image placeholder">
+        <span>banner image coming soon</span>
+      </div>
 
-        <div class="hero-grid">
-          <div class="hero-copy reveal">
-            <p class="eyebrow">Software engineer · New York City</p>
-            <h1 id="hero-title">Hey, I’m Dan.<span class="scribble" aria-hidden="true"></span></h1>
-            <p class="lede">I build intelligent systems, developer tools, and useful software with a bias toward impact.</p>
-            <p>I’m a software engineer at GitHub Copilot and a Princeton computer science alum. I like wearing multiple hats—especially when the work sits at the intersection of AI, research, and tangible products.</p>
-            <div class="actions" aria-label="Dan's links">
-              <a class="button button-primary" href="assets/Hu_Daniel_resume.pdf" target="_blank" rel="noreferrer">View résumé <span aria-hidden="true">↗</span></a>
-              <a class="button button-quiet" href="https://github.com/dy-hu" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
-              <a class="button button-quiet" href="https://www.linkedin.com/in/dy-hu" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
-            </div>
-          </div>
-          <figure class="portrait-wrap reveal">
-            <div class="portrait-frame">
-              <img src="assets/profile.jpeg" alt="Dan Hu standing outdoors" width="1536" height="2049" />
-            </div>
-            <figcaption><span class="pin" aria-hidden="true"></span> Usually in NYC, occasionally elsewhere.</figcaption>
-          </figure>
-        </div>
-      </section>
-
-      <section class="about section" id="about" aria-labelledby="about-title">
-        <div class="section-label"><span>01</span> About</div>
-        <div class="about-layout reveal">
-          <h2 id="about-title">Curious about the whole stack—and what it can do for people.</h2>
-          <div class="about-copy">
-            <p>Most of my life was spent in New Jersey, with a short semester escape through Singapore. I graduated <em>magna cum laude</em> from Princeton with a B.A. in Computer Science.</p>
-            <p>At Princeton, I worked on natural language processing with Prof. Christiane Fellbaum, cryo-EM graphics with Prof. Ellen Zhong, and a thesis on the path dependence of transit infrastructure with Prof. Robert Fish.</p>
-            <p>Outside of code, you’ll find me playing volleyball, working out, traveling, or learning how to be a New York Knicks fan.</p>
+      <section class="intro" aria-labelledby="intro-title">
+        <div class="intro-copy">
+          <h1 id="intro-title">Hey, I'm Dan<span>.</span></h1>
+          <p>I'm a software engineer at GitHub Copilot. I like volleyball, working out, and traveling, and am a recent fan of the New York Knicks. As an engineer, I like wearing multiple hats, but I am most interested in the emerging applications of artificial intelligence &amp; other impactful and tangible systems. Despite a short semester escape through Singapore, I spent most of my life in New Jersey, having graduated Magna Cum Laude with a B.A. in Computer Science from Princeton.</p>
+          <p>At school, I completed several research projects -- namely, Natural Language Processing research under Prof. Christiane Fellbaum, Cryo-EM Graphics research under Prof. Ellen Zhong, and my thesis on the path dependence of transit infrastructure under Prof. Robert Fish.</p>
+          <p>Please feel free to shoot me a message if you'd like to chat!</p>
+          <div class="links">
+            <a href="assets/Hu_Daniel_resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+            <a href="https://www.linkedin.com/in/dy-hu" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://github.com/dy-hu" target="_blank" rel="noreferrer">GitHub</a>
           </div>
         </div>
+        <img class="portrait" src="assets/profile.jpeg" alt="Daniel Hu profile" width="1536" height="2049" />
       </section>
 
-      <section class="work section" id="work" aria-labelledby="work-title">
-        <div class="section-heading reveal">
-          <div class="section-label"><span>02</span> Selected work</div>
-          <h2 id="work-title">Projects built to be used.</h2>
-          <p>A mix of research tooling, community products, and full-stack experiments.</p>
-        </div>
+      <section class="work" id="projects" aria-labelledby="projects-title">
+        <h2 id="projects-title">Previous Work</h2>
         <div class="projects">
-          <article class="project project-featured reveal">
-            <a class="project-image" href="https://github.com/dy-hu/plysequenceconverter" target="_blank" rel="noreferrer" aria-label="Open PLY Sequence Converter on GitHub">
-              <img src="assets/projects/cryodrgn.png" alt="Protein conformations rendered as colorful point clouds" loading="lazy" />
-              <span class="image-index">01 / 06</span>
-            </a>
-            <div class="project-body">
-              <p class="project-kicker">Research tooling · 2023</p>
+          <article class="project">
+            <img src="assets/projects/cryodrgn.png" alt="PLY Sequence Converter project" />
+            <div class="project-copy">
               <h3>PLY Sequence Converter</h3>
-              <p>A Blender plugin for visualizing dynamic CryoDRGN protein conformations. It converts voxel results to point-cloud mesh sequences, cutting memory usage by 97% and bringing legacy workflows to Blender 4.0+.</p>
-              <ul class="tags" aria-label="Technologies"><li>Python</li><li>Blender</li><li>CryoDRGN</li><li>Point clouds</li></ul>
-              <a class="text-link" href="https://github.com/dy-hu/plysequenceconverter" target="_blank" rel="noreferrer">Explore the repository <span aria-hidden="true">↗</span></a>
+              <p>A Blender plugin built to visualize CryoDRGN output by rendering dynamic protein conformations. Converts voxel-based CryoDRGN results to point cloud `.ply` mesh sequences, reducing memory usage by 97%. Upgrades legacy Stop Motion OBJ support for Blender 4.0+, enabling seamless import and real-time rendering of complex protein shape transitions.</p>
+              <ul><li>Python</li><li>Blender</li><li>CryoDRGN</li><li>Point Cloud</li></ul>
+              <a class="project-link" href="https://github.com/dy-hu/plysequenceconverter" target="_blank" rel="noreferrer">View project ↗</a>
             </div>
           </article>
 
-          <div class="project-grid">
-            <article class="project-card reveal">
-              <div class="card-image"><img src="assets/projects/workwell.png" alt="Workwell project mark" loading="lazy" /></div>
-              <div class="card-copy"><p class="project-kicker">Civic tech · 2023</p><h3>Workwell</h3><p>A full-stack outcomes platform for a Trenton nonprofit serving formerly incarcerated people, reducing paperwork and improving client support.</p><ul class="tags"><li>Django</li><li>PostgreSQL</li><li>HTML/CSS</li></ul></div>
-            </article>
-            <article class="project-card reveal">
-              <div class="card-image blue"><img src="assets/projects/48u.png" alt="48U Studios logo" loading="lazy" /></div>
-              <div class="card-copy"><p class="project-kicker">Media tech · 2022</p><h3>48U Studios</h3><p>A branded landing page and recruiter dashboard connecting Princeton students with potential employers for The Daily Princetonian.</p><ul class="tags"><li>Flask</li><li>React</li><li>TypeScript</li></ul></div>
-            </article>
-            <article class="project-card reveal">
-              <div class="card-image yellow"><img src="assets/projects/hssclubs.png" alt="HSS Clubs interface illustration" loading="lazy" /></div>
-              <div class="card-copy"><p class="project-kicker">Community · 2021</p><h3>HSS Clubs</h3><p>A virtual club fair built during campus closures, giving students a friendly way to browse, search, and register for clubs online.</p><ul class="tags"><li>JavaScript</li><li>SQL</li><li>HTML/CSS</li></ul></div>
-            </article>
-            <article class="project-card reveal">
-              <div class="card-image coral"><img src="assets/projects/socialscout.png" alt="SocialScout project graphic" loading="lazy" /></div>
-              <div class="card-copy"><p class="project-kicker">Web utility · 2020</p><h3>SocialScout</h3><p>A utility that scans public social profiles and flags potentially inappropriate bio content using scraping and language heuristics.</p><ul class="tags"><li>Python</li><li>BeautifulSoup</li><li>Regex</li></ul></div>
-            </article>
-            <article class="project-card project-wide reveal">
-              <div class="card-image dark"><img src="assets/projects/hoagie.jpeg" alt="Hoagie Mail envelope icon" loading="lazy" /></div>
-              <div class="card-copy"><p class="project-kicker">Campus tools · 2023</p><h3>Hoagie Mail</h3><p>An internal tool for Princeton’s student community that lets club officers and admins send campus-wide announcements in a single flow.</p><ul class="tags"><li>React</li><li>Go</li><li>Email APIs</li></ul></div>
-            </article>
-          </div>
-        </div>
-      </section>
+          <article class="project">
+            <img src="assets/projects/workwell.png" alt="Workwell project" />
+            <div class="project-copy">
+              <h3>Workwell</h3>
+              <p>A full-stack web app built for a nonprofit serving formerly incarcerated individuals in Trenton, NJ. The platform enables staff to record, track, and analyze program outcomes, reducing paperwork and improving client support. Developed as part of Princeton's COS333 course.</p>
+              <ul><li>Django</li><li>PostgreSQL</li><li>HTML</li><li>CSS</li></ul>
+            </div>
+          </article>
 
-      <section class="contact section" id="contact" aria-labelledby="contact-title">
-        <div class="contact-inner reveal">
-          <p class="eyebrow">Have an idea, question, or good Knicks take?</p>
-          <h2 id="contact-title">Let’s talk.</h2>
-          <p>I’m always happy to meet thoughtful people and hear about interesting problems.</p>
-          <a class="button button-light" href="mailto:d4niel.hu14@gmail.com">d4niel.hu14@gmail.com <span aria-hidden="true">↗</span></a>
+          <article class="project">
+            <img src="assets/projects/48u.png" alt="48U Studios project" />
+            <div class="project-copy">
+              <h3>48U Studios</h3>
+              <p>Designed and deployed a branded landing page for the Daily Princetonian to connect students with potential employers. Created responsive user interfaces and recruiter dashboards as part of a cross-functional media-tech initiative.</p>
+              <ul><li>Flask</li><li>React</li><li>TypeScript</li></ul>
+            </div>
+          </article>
+
+          <article class="project">
+            <img src="assets/projects/hssclubs.png" alt="HSS Clubs project" />
+            <div class="project-copy">
+              <h3>HSS Clubs</h3>
+              <p>Created an online club discovery and registration portal in response to COVID-19 campus closures. Students could browse, search, and sign up for clubs in a virtual environment simulating a physical fair experience.</p>
+              <ul><li>HTML</li><li>CSS</li><li>JavaScript</li><li>SQL</li></ul>
+            </div>
+          </article>
+
+          <article class="project">
+            <img src="assets/projects/socialscout.png" alt="SocialScout project" />
+            <div class="project-copy">
+              <h3>SocialScout</h3>
+              <p>A web utility that flags potentially inappropriate content on social media bios using natural language heuristics. Built with a scraping engine to scan public Twitter profiles and identify NSFW phrases.</p>
+              <ul><li>Python</li><li>BeautifulSoup4</li><li>Regex</li></ul>
+            </div>
+          </article>
+
+          <article class="project">
+            <img src="assets/projects/hoagie.jpeg" alt="Hoagie Mail project" />
+            <div class="project-copy">
+              <h3>Hoagie Mail</h3>
+              <p>Internal web tool built for Princeton’s student community. Allows club officers and admins to send email announcements to the entire student body with a single click.</p>
+              <ul><li>React</li><li>Go</li><li>Email APIs</li></ul>
+            </div>
+          </article>
         </div>
       </section>
     </main>
 
     <footer>
-      <p>Designed &amp; built by Dan Hu.</p>
-      <p><span id="year">2026</span> · New York, NY</p>
+      <span>Dan Hu</span>
+      <div><a href="mailto:d4niel.hu14@gmail.com">Email</a><a href="https://github.com/dy-hu">GitHub</a><a href="https://www.linkedin.com/in/dy-hu">LinkedIn</a></div>
     </footer>
   </body>
 </html>
