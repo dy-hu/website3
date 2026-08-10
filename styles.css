@@ -1,4 +1,4 @@
-:root { --paper:#fdfaf3; --nav:#eee3cf; --card:#fffdf8; --ink:#172033; --muted:#6f6d68; --accent:#f0c955; --accent-dark:#a85f08; --accent-soft:#f8e7b6; --line:#dbcdb4; --section-space:64px; --serif:"Fraunces",Georgia,serif; --sans:"DM Sans",system-ui,sans-serif; --mono:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace; }
+:root { --paper:#fdf7ec; --nav:#eee3cf; --card:#fffdf8; --ink:#172033; --muted:#6f6d68; --accent:#f0c955; --accent-dark:#a85f08; --accent-soft:#f8e7b6; --line:#dbcdb4; --section-space:64px; --serif:"Fraunces",Georgia,serif; --sans:"DM Sans",system-ui,sans-serif; --mono:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace; }
 * { box-sizing:border-box; }
 html { scroll-behavior:smooth; }
 body { margin:0; background:var(--paper); color:var(--ink); font-family:var(--sans); line-height:1.55; }
