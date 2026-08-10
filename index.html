@@ -10,10 +10,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
   </head>
   <body>
     <header>
-      <a class="brand" href="#top"><span class="mark">DH</span><span>Dan Hu</span></a>
       <nav aria-label="Primary navigation">
         <a href="#top">home</a>
         <a href="#projects">projects</a>
@@ -75,8 +75,13 @@
     </main>
 
     <footer>
-      <span>Dan Hu</span>
-      <div><a href="mailto:d4niel.hu14@gmail.com">Email</a><a href="https://github.com/dy-hu">GitHub</a><a href="https://www.linkedin.com/in/dy-hu">LinkedIn</a></div>
+      <div class="footer-links">
+        <a href="mailto:d4niel.hu14@gmail.com">Email</a>
+        <a href="assets/Hu_Daniel_resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+        <a href="https://github.com/dy-hu" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/dy-hu" target="_blank" rel="noreferrer">LinkedIn</a>
+      </div>
+      <p>© <span id="year"></span> Dan Hu</p>
     </footer>
   </body>
 </html>
