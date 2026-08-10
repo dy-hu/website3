@@ -16,3 +16,7 @@ npm run build
 ```
 
 The production output is written to `dist/` and can be deployed to Vercel, Netlify, or GitHub Pages.
+
+## Font
+
+Display text uses [Monocraft](https://github.com/IdreesInc/Monocraft) by Idrees Hassan, distributed under the SIL Open Font License 1.1. The license is included at `assets/fonts/OFL.txt`.
